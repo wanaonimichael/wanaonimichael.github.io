@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Registry configuration summary | CBC</title>
+    <link rel="shortcut icon" href="../../../theme/image.php/boost/theme/1734639473/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Registry configuration summary | CBC" />
+<link rel="stylesheet" type="text/css" href="../../../theme/yui_combo.php%3Frollup%252F3.18.1%252Fyui-moodlesimple.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="../../../theme/styles.php/boost/1734639473_1/all.css" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/localhost\/moodle","apibase":"http:\/\/localhost\/moodle\/r.php\/api","homeurl":{},"sesskey":"O2wVsJUUHr","sessiontimeout":"28800","sessiontimeoutwarning":"1200","themerev":"1734639473","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1734639473","admin":"admin","svgicons":true,"usertimezone":"Europe\/London","language":"en","courseId":1,"courseContextId":2,"contextid":1,"contextInstanceId":0,"langrev":1734639473,"templaterev":"1734639473","siteId":1,"userId":0,"developerdebug":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":true,"base":"http:\/\/localhost\/moodle\/lib\/yuilib\/3.18.1\/","comboBase":"http:\/\/localhost\/moodle\/theme\/yui_combo.php?","combine":true,"filter":"RAW","insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/localhost\/moodle\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/localhost\/moodle\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/localhost\/moodle\/theme\/yui_combo.php?m\/1734639473\/","combine":true,"comboBase":"http:\/\/localhost\/moodle\/theme\/yui_combo.php?","ext":false,"root":"m\/1734639473\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":"DEBUG","modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/localhost\/moodle\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/localhost\/moodle\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1734639473\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/localhost\/moodle\/lib\/javascript.php\/1734639473\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"http:\/\/localhost\/moodle\/lib\/javascript.php\/1734639473\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-admin-tool-dataprivacy-summary" class="format-site admin path-admin path-admin-tool path-admin-tool-dataprivacy dir-ltr lang-en yui-skin-sam yui3-skin-sam localhost--moodle pagelayout-base course-1 context-1 notloggedin theme uses-drawers">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="summary.php.html#maincontent">Skip to main content</a>
+</div><script src="../../../lib/javascript.php/1734639473/lib/polyfills/polyfill.js"></script>
+<script src="../../../theme/yui_combo.php%3Frollup%252F3.18.1%252Fyui-moodlesimple.js"></script><script src="../../../lib/javascript.php/1734639473/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="navbar fixed-top navbar-light bg-white navbar-expand" aria-label="Site navigation">
+        <div class="container-fluid">
+            <button class="navbar-toggler aabtn d-block d-md-none px-1 my-1 border-0" data-toggler="drawers" data-action="toggle" data-target="theme_boost-drawers-primary">
+                <span class="navbar-toggler-icon"></span>
+                <span class="sr-only">Side panel</span>
+            </button>
+    
+            <a href="../../../index.html" class="navbar-brand d-none d-md-flex align-items-center m-0 me-4 p-0 aabtn">
+    
+                    CBC
+            </a>
+                <div class="primary-navigation">
+                    <nav class="moremenu navigation">
+                        <ul id="moremenu-6765c9c996d74-navbar-nav" role="menubar" class="nav more-nav navbar-nav">
+                                    <li data-key="home" class="nav-item" role="none" data-forceintomoremenu="false">
+                                                <a role="menuitem" class="nav-link active "
+                                                    href="../../../index.html"
+                                                    
+                                                    aria-current="true"
+                                                    data-disableactive="true"
+                                                    
+                                                >
+                                                    Home
+                                                </a>
+                                    </li>
+                            <li role="none" class="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+                                <a class="dropdown-toggle nav-link " href="summary.php.html#" id="moremenu-dropdown-6765c9c996d74" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                                    More
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-6765c9c996d74" role="menu">
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+    
+            <ul class="navbar-nav d-none d-md-flex my-1 px-1">
+                <!-- page_heading_menu -->
+                
+            </ul>
+    
+            <div id="usernavigation" class="navbar-nav ms-auto h-100">
+                
+                <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+                        <div class="usermenu">
+                                <span class="login ps-2">
+                                        <a href="../../../login/index.php.html">Log in</a>
+                                </span>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    
+
+<div  class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
+    <div class="drawerheader">
+        <button
+            class="btn drawertoggle icon-no-margin hidden"
+            data-toggler="drawers"
+            data-action="closedrawer"
+            data-target="theme_boost-drawers-primary"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="Close drawer"
+        >
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true"  ></i>
+        </button>
+                    <span class="sitename" title="CBC">CBC</span>
+
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                <div class="list-group">
+                <a href="../../../index.html" class="list-group-item list-group-item-action active " aria-current="true">
+                    Home
+                </a>
+        </div>
+
+    </div>
+</div>
+    <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers   drag-container">
+        <div id="topofscroll" class="main-inner">
+            <div class="drawer-toggles d-flex">
+            </div>
+            <header id="page-header" class="header-maxwidth d-print-none">
+    <div class="w-100">
+        <div class="d-flex flex-wrap">
+            <div id="page-navbar">
+                <nav aria-label="Navigation bar">
+    <ol class="breadcrumb"></ol>
+</nav>
+            </div>
+            <div class="ms-auto d-flex">
+                
+            </div>
+            <div id="course-header">
+                
+            </div>
+        </div>
+        <div class="d-flex align-items-center">
+                    <div class="me-auto">
+                        <div class="page-context-header d-flex align-items-center mb-2">
+    <div class="page-header-headings">
+        <h1 class="h2 mb-0">MOODLE LEARNING SITE-CBC</h1>
+    </div>
+</div>
+                    </div>
+            <div class="header-actions-container ms-auto" data-region="header-actions-container">
+            </div>
+        </div>
+    </div>
+</header>
+            <div id="page-content" class="pb-3 d-print-block">
+                <div id="region-main-box">
+                    <section id="region-main" aria-label="Content">
+
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main"><span id="maincontent"></span><h2>Data retention summary</h2>
+<p>This summary shows the default categories and purposes for retaining user data. Certain areas may have more specific categories and purposes than those listed here.</p>
+<div>
+        <div class="card mb-3">
+            <div class="card-header"><h3>Site</h3></div>
+            <div class="card-body ps-5 pe-5">
+
+                <h4>Purpose</h4>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>Retention period</dt>
+                    <dd>No retention period was defined</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header"><h3>Users</h3></div>
+            <div class="card-body ps-5 pe-5">
+
+                <h4>Purpose</h4>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>Retention period</dt>
+                    <dd>No retention period was defined</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header"><h3>Course categories</h3></div>
+            <div class="card-body ps-5 pe-5">
+
+                <h4>Purpose</h4>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>Retention period</dt>
+                    <dd>No retention period was defined</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header"><h3>Courses</h3></div>
+            <div class="card-body ps-5 pe-5">
+
+                <h4>Purpose</h4>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>Retention period</dt>
+                    <dd>No retention period was defined</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header"><h3>Activity modules</h3></div>
+            <div class="card-body ps-5 pe-5">
+
+                <h4>Purpose</h4>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>Retention period</dt>
+                    <dd>No retention period was defined</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header"><h3>Blocks</h3></div>
+            <div class="card-body ps-5 pe-5">
+
+                <h4>Purpose</h4>
+                <dl>
+                    <dt></dt>
+                    <dd></dd>
+                    <dt>Retention period</dt>
+                    <dd>No retention period was defined</dd>
+                </dl>
+            </div>
+        </div>
+</div></div>
+                        
+                        
+
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="page-footer" class="footer-popover bg-white">
+            <div data-region="footer-container-popover">
+                <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="Show footer">
+                    <i class="icon fa fa-question fa-fw " aria-hidden="true"  ></i>
+                </button>
+            </div>
+            <div class="footer-content-popover container" data-region="footer-content-popover">
+                <div class="footer-section p-3 border-bottom">
+                    <div class="logininfo">
+                        <div class="logininfo">You are not logged in. (<a href="../../../login/index.php.html">Log in</a>)</div>
+                    </div>
+                    <div class="tool_usertours-resettourcontainer">
+                    </div>
+        
+                    <div class="tool_dataprivacy"><a href="summary.php.html">Data retention summary</a></div>
+                    <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'http://localhost/moodle/lib/requirejs.php/1734639473/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'http://localhost/moodle/lib/javascript.php/1734639473/lib/jquery/jquery-3.7.1.min',
+        jqueryui: 'http://localhost/moodle/lib/javascript.php/1734639473/lib/jquery/ui-1.13.2/jquery-ui.min',
+        jqueryprivate: 'http://localhost/moodle/lib/javascript.php/1734639473/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="../../../lib/javascript.php/1734639473/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('en');
+});;
+
+    require(['core/moremenu'], function(moremenu) {
+        moremenu(document.querySelector('#moremenu-6765c9c996d74-navbar-nav'));
+    });
+;
+
+    require(['core/usermenu'], function(UserMenu) {
+        UserMenu.init();
+    });
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+    Drawer.init();
+    M.util.js_complete('theme_boost/loader');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"trace"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(null); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"Are you sure you want to delete the selected comment(s)?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random6765c9c9972e22'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6765c9c9972e22'); });
+})();
+//]]>
+</script>
+
+                </div>
+                <div class="footer-section p-3">
+                    <div>Powered by <a href="https://moodle.com">Moodle</a></div>
+                </div>
+            </div>
+        
+            <div class="footer-content-debugging footer-dark bg-dark text-light">
+                <div class="container-fluid footer-dark-inner">
+                    <div class="performanceinfo siteinfo container-fluid px-md-0 overflow-auto pt-3"><ul class="list-unstyled row mx-md-0"><li class="timeused col-sm-4">0.237318 secs</li> <li class="memoryused col-sm-4">RAM: 3.0 MB</li> <li class="memoryused col-sm-4">RAM peak: 4.0 MB</li> </ul><ul class="list-unstyled row mx-md-0"><li class="included col-sm-4">Included 390 files</li> <li class='contextswithfilters col-sm-4'>Contexts for which filters were loaded: 0 </li> <li class='filterscreated col-sm-4'>Filters created: 6 </li> <li class='textsfiltered col-sm-4'>Pieces of content filtered: 0 </li> <li class='stringsfiltered col-sm-4'>Strings filtered: 0 </li> <li class='langcountgetstring col-sm-4'>get_string calls: 74 </li> <li class="dbqueries col-sm-4">DB reads/writes: 11/0</li> <li class="dbtime col-sm-4">DB queries time: 0.09273 secs</li> <li class="posixtimes col-sm-4">ticks: 24 user: 11sys: 2 cuser: 0 csys: 0</li> <li class="serverload col-sm-4">Load average: 3.82</li> <li class="serverload col-sm-4"><div class="sessionsize">Session (core\session\file): 1.4 KB</div></li><li class="sessionwait col-sm-4">Session wait: 0.000 secs</li></ul><div class="table-responsive"><table class="cachesused table table-dark table-sm w-auto table-bordered">
+<thead>
+<tr>
+<th class="header c0" style="text-align:left;" scope="col">Mode</th>
+<th class="header c1" style="text-align:left;" scope="col">Cache item</th>
+<th class="header c2" style="text-align:left;" scope="col">Static</th>
+<th class="header c3" style="text-align:right;" scope="col">H</th>
+<th class="header c4" style="text-align:right;" scope="col">M</th>
+<th class="header c5" style="text-align:left;" scope="col">Primary store</th>
+<th class="header c6" style="text-align:right;" scope="col">H</th>
+<th class="header c7" style="text-align:right;" scope="col">M</th>
+<th class="header c8" style="text-align:right;" scope="col">S</th>
+<th class="header c9 lastcol" style="text-align:right;" scope="col">I/O</th>
+</tr>
+</thead>
+<tbody><tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/capabilities</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">18</td>
+<td class="hihits cell c4" style="text-align:right;">2</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">2</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">156.4 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="session cache">Ses</span></td>
+<td class="cell c1" style="text-align:left;">core/coursecat</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">default_session</td>
+<td class="hihits cell c6" style="text-align:right;">2</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">1</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">-</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/coursemodinfo</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">1</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">0.5 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/databasemeta</td>
+<td class="lowhits bg-warning text-dark cell c2" style="text-align:left;">** static accel. **</td>
+<td class="lowhits bg-warning text-dark cell c3" style="text-align:right;">1</td>
+<td class="lowhits bg-warning text-dark cell c4" style="text-align:right;">7</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">6</td>
+<td class="hihits cell c7" style="text-align:right;">1</td>
+<td class="hihits cell c8" style="text-align:right;">1</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">26.4 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/eventinvalidation</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">2</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">2</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">0.1 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/fontawesomeiconmapping</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">1</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">1</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">25.9 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/hookcallbacks</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">3</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">10.7 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/langmenu</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">1</td>
+<td class="hihits cell c4" style="text-align:right;">1</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">1</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">0.0 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="session cache">Ses</span></td>
+<td class="cell c1" style="text-align:left;">core/navigation_cache</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">default_session</td>
+<td class="hihits cell c6" style="text-align:right;">0</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">1</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">-</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/plugin_functions</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">12</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">12</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">1.6 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/plugin_manager</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">2</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">22.5 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/roledefs</td>
+<td class="nohits bg-danger cell c2" style="text-align:left;">** static accel. **</td>
+<td class="nohits bg-danger cell c3" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c4" style="text-align:right;">1</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">1</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="hihits cell c9 lastcol" style="text-align:right;">1.1 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/string</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">91</td>
+<td class="hihits cell c4" style="text-align:right;">8</td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">8</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">396.6 KB</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">core/yuimodules</td>
+<td class="cell c2" style="text-align:left;"></td>
+<td class="cell c3" style="text-align:right;"></td>
+<td class="cell c4" style="text-align:right;"></td>
+<td class="hihits cell c5" style="text-align:left;">default_application</td>
+<td class="hihits cell c6" style="text-align:right;">3</td>
+<td class="hihits cell c7" style="text-align:right;">0</td>
+<td class="hihits cell c8" style="text-align:right;">0</td>
+<td class="bg-warning text-dark cell c9 lastcol" style="text-align:right;">13.9 KB</td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style="text-align:left;"> <span title="application cache">App</span></td>
+<td class="cell c1" style="text-align:left;">tool_dataprivacy/purpose_overrides</td>
+<td class="hihits cell c2" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c3" style="text-align:right;">5</td>
+<td class="hihits cell c4" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c5" style="text-align:left;">default_application</td>
+<td class="nohits bg-danger cell c6" style="text-align:right;">0</td>
+<td class="nohits bg-danger cell c7" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c8" style="text-align:right;">1</td>
+<td class="nohits bg-danger cell c9 lastcol" style="text-align:right;">0.0 KB</td>
+</tr>
+</tbody>
+</table>
+</div><div class="table-responsive"><table class="cachesused table table-dark table-sm w-auto table-bordered">
+<thead>
+<tr>
+<th class="header c0" style="text-align:left;" scope="col">Store name</th>
+<th class="header c1" style="text-align:left;" scope="col">Cache store</th>
+<th class="header c2" style="text-align:right;" scope="col">H</th>
+<th class="header c3" style="text-align:right;" scope="col">M</th>
+<th class="header c4" style="text-align:right;" scope="col">S</th>
+<th class="header c5 lastcol" style="text-align:right;" scope="col">I/O</th>
+</tr>
+</thead>
+<tbody><tr class="">
+<td class="hihits cell c0" style="text-align:left;">** static accel. **</td>
+<td class="hihits cell c1" style="text-align:left;"></td>
+<td class="hihits cell c2" style="text-align:right;">116</td>
+<td class="hihits cell c3" style="text-align:right;">35</td>
+<td class="hihits cell c4" style="text-align:right;">0</td>
+<td class="hihits cell c5 lastcol" style="text-align:right;">-</td>
+</tr>
+<tr class="">
+<td class="hihits cell c0" style="text-align:left;">default_application</td>
+<td class="hihits cell c1" style="text-align:left;">cachestore_file</td>
+<td class="hihits cell c2" style="text-align:right;">42</td>
+<td class="hihits cell c3" style="text-align:right;">2</td>
+<td class="hihits cell c4" style="text-align:right;">2</td>
+<td class="hihits cell c5 lastcol" style="text-align:right;">655.8 KB</td>
+</tr>
+<tr class="">
+<td class="hihits cell c0" style="text-align:left;">default_session</td>
+<td class="hihits cell c1" style="text-align:left;">cachestore_session</td>
+<td class="hihits cell c2" style="text-align:right;">2</td>
+<td class="hihits cell c3" style="text-align:right;">0</td>
+<td class="hihits cell c4" style="text-align:right;">2</td>
+<td class="hihits cell c5 lastcol" style="text-align:right;">-</td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style="text-align:left;">Total</td>
+<td class="cell c1" style="text-align:left;"></td>
+<td class="cell c2" style="text-align:right;">160</td>
+<td class="cell c3" style="text-align:right;">37</td>
+<td class="cell c4" style="text-align:right;">4</td>
+<td class="cell c5 lastcol" style="text-align:right;">655.8 KB</td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="validators"><ul class="list-unstyled ms-1">
+<li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Flocalhost%2Fmoodle%2Fadmin%2Ftool%2Fdataprivacy%2Fsummary.php&amp;showsource=yes">Validate HTML</a></li>
+<li><a href="https://wave.webaim.org/report#/http%3A%2F%2Flocalhost%2Fmoodle%2Fadmin%2Ftool%2Fdataprivacy%2Fsummary.php">Web Content Accessibility Guidelines (WCAG) check</a></li>
+</ul></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</div>
+
+
+</body></html>
